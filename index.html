@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Alex Eddings | Software Engineer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Alex Eddings</h1>
+      <ul class="navigation">
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set">
+          <img
+            src="./src/img/icons/html_logo.png"
+            aria-label="skill entry html 5"
+            alt="html icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="./src/img/icons/css-logo.png"
+            aria-label="skill entry css 3"
+            alt="css icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="./src/img/icons/javascript-logo.png"
+            aria-label="skill entry javascript"
+            alt="javascript icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="./src/img/icons/png-clipart-mongodb-database-nosql-postgresql-mongo-text-logo-thumbnail.png"
+            aria-label="skill entry mongo db"
+            alt="mongodb icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            aria-label="skill entry react"
+            alt="react icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            aria-label="skill entry git"
+            alt="git icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Skills End -->
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Projects</h2>
+
+      <!-- Project 1 -->
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <h3 class="project-title">Fashion Blog</h3>
+          <img
+            src="./src/img/FashionBlogReact.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+
+          <p class="project-details">Text Placeholder</p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+
+        <!-- Project 2 -->
+
+        <div class="project-container project-card">
+          <h3 class="project-title">2 Player Fighting Game</h3>
+          <img
+            src="./src/img/FightingGame-JS.png"
+            alt="javascript fighting game"
+            loading="lazy"
+            class="project-pic"
+          />
+
+          <p class="project-details">Text Placeholder</p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-container project-card">
+          <h3 class="project-title">eCommerce Store</h3>
+          <img
+            src="./src/img/Vans-eCommerce-MERN.png"
+            alt="vans ecommerce store"
+            loading="lazy"
+            class="project-pic"
+          />
+
+          <p class="project-details">Text Placeholder</p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Socials - Fixed to the right -->
+    <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="./src/img/icons/Github-logoOctocat.png"
+          alt="Github"
+          class="social-icon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="social-icon"
+      /></a>
+
+      <a href="https://www.linkedin.com/in/alexeddings-dev/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="social-icon"
+      /></a>
+      <a
+        href="https://docs.google.com/document/d/18CWlDBt9wImTJCJyWIvhVL-KqxaMqCu2Oum280DG9zg/edit?usp=sharing"
+        target="_blank"
+      >
+        <button id="resume">Resume</button>
+      </a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="social-icon up-arrow"
+        alt="scroll up arrow"
+    /></i>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
+
+<!-- START CONTACT SECTION -->
+
+<section id="contact" class="contact-section">
+  <div class="contact-section-header">
+    <h2>Let's work together...</h2>
+    <p>How do you take your coffee?</p>
+  </div>
+  <div class="contact-links">
+    <a
+      href="https://facebook.com/freecodecamp"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-facebook-square"></i> Facebook</a
+    >
+    <a
+      id="profile-link"
+      href="https://github.com/freecodecamp"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-github"></i> GitHub</a
+    >
+    <a
+      href="https://twitter.com/freecodecamp"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-twitter"></i> Twitter</a
+    >
+    <a href="mailto:example@example.com" class="btn contact-details"
+      ><i class="fas fa-at"></i> Send a mail</a
+    >
+    <a href="tel:555-555-5555" class="btn contact-details"
+      ><i class="fas fa-mobile-alt"></i> Call me</a
+    >
+  </div>
+</section>
+
+<!-- END CONTACT SECTION -->
+
+<!-- Footer section -->
+<footer>
+  <div class="footer">
+    <p class="copy">&copy; 2023</p>
+    <p class="copy">
+      Built with &#x2661; by
+      <a href="https://github.com/RiverXDiamant" target="_blank">Alex</a>
+    </p>
+  </div>
+</footer>
