@@ -241,6 +241,11 @@ nav ul li {
   margin-bottom: var(--bottom-margin);
 }
 
+.more-projects {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+}
 /* Projects section ends */
 
 /* Social buttons */
