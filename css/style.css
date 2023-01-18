@@ -13,8 +13,8 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
-  --primary-color: #47b4dfb9;
-  --secondary-color: #35e1ff;
+  --primary-color: #e02c2cb9;
+  --secondary-color: #000000;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #000000;
   --bottom-margin: 0.5rem;
@@ -142,8 +142,8 @@ nav ul li {
 }
 
 .icon {
-  width: 11.875rem;
-  height: 11.25rem;
+  width: 10rem;
+  height: 10rem;
 }
 /* Skills section ends */
 
@@ -155,7 +155,7 @@ nav ul li {
 }
 
 .project-pic {
-  width: 65%;
+  width: 70%;
   height: 60%;
 }
 
@@ -191,67 +191,7 @@ nav ul li {
 /* Projects section ends */
 
 /* Contacts section */
-.contact {
-  margin-top: 2rem;
-}
 
-.contact h2 {
-  text-align: center;
-  margin-bottom: var(--bottom-margin-2);
-}
-
-.contact-form-container {
-  max-width: 40.75rem;
-  margin: 0 auto;
-  padding: 0.938rem;
-  border-radius: 5px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
-}
-
-.contact-form-container label {
-  line-height: 2.7em;
-  font-weight: var(--bold-font);
-  color: var(--primary-color);
-}
-
-.contact-form-container textarea {
-  min-height: 6.25rem;
-  font-size: 14px;
-}
-
-.contact-form-container .input-field {
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 5px;
-  border: none;
-  border: 2px outset var(--primary-color);
-  font-size: 0.875rem;
-  outline: none;
-}
-
-.input-field::placeholder {
-  padding: 0.5rem;
-  color: var(--primary-color);
-}
-
-.submit-btn {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  background-color: #fff;
-  border: 2px solid var(--primary-color);
-  border-radius: 5px;
-  font-size: 1rem;
-  font-weight: var(--bold-font);
-  transition: var(--transition);
-}
-
-.submit-btn:hover {
-  background-color: var(--primary-color);
-  border: 2px solid var(--primary-color);
-  cursor: pointer;
-}
 /* Contacts section ends */
 
 /* Social buttons */
@@ -260,7 +200,7 @@ nav ul li {
   flex-direction: column;
   position: fixed;
   right: 1%;
-  bottom: 50%;
+  bottom: 40%;
 }
 
 .social-icon {
