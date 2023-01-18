@@ -24,6 +24,76 @@
 }
 /* CSS Variables end */
 
+/* Dark Mode Variables */
+/* [data-theme="dark"]? This means we are referencing a data attribute called data-theme with a value "dark"*/
+[data-theme="dark"] {
+  --primary-color: #b82828;
+  --secondary-color: #000000;
+  --primary-shadow: #6e01018c;
+  --secondary-shadow: #000000;
+  --bg-color: #161625;
+  --heading-color: #818cab;
+}
+
+/* Dark Mode Slider */
+.theme-switch-wrapper {
+  display: flex;
+  align-items: center;
+}
+em {
+  margin-left: 10px;
+  font-size: 1rem;
+}
+.theme-switch {
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  width: 50px;
+}
+
+.theme-switch input {
+  display: none;
+}
+
+.slider {
+  background-color: var(--secondary-color);
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  content: "";
+  bottom: 4px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 18px;
+  height: 15px;
+}
+
+input:checked + .slider {
+  background-color: var(--primary-color);
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+/* Dark Mode End*/
+
 html {
   scroll-behavior: smooth;
 }
@@ -43,6 +113,14 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.light-mode {
+  background-color: white;
+  color: black;
 }
 
 /* CSS Resets end */
@@ -71,7 +149,6 @@ nav a {
 }
 nav a:hover {
   color: var(--secondary-color);
-  border-bottom: 2px solid var(--secondary-color);
 }
 
 nav ul {
@@ -211,6 +288,22 @@ nav ul li {
 }
 /* Scroll to top button ends */
 
+/* Contact */
+
+#contact-me {
+  display: flex;
+  justify-content: center;
+}
+.contact-section {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+}
+
+.contact:hover {
+  transform: translateY(8px);
+}
+
 /* Footer section */
 footer {
   background-color: var(--bg-color);
@@ -284,19 +377,6 @@ footer {
     width: 20.5rem;
   }
 
-  .more-about {
-    margin-top: 2rem;
-    padding: 1rem 3.5rem;
-  }
-
-  .more-about h2 {
-    text-align: center;
-  }
-
-  .more-about p {
-    text-align: justify;
-  }
-
   .icon {
     width: 5.875rem;
     height: 5.25rem;
@@ -327,5 +407,17 @@ footer {
     .contact-form-container {
       max-width: 17.75rem;
     }
+  }
+}
+@media screen and (max-width: 799px) {
+  .socials {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+
+  .theme-switch-wrapper {
+    display: none;
   }
 }
