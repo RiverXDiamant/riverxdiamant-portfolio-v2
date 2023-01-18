@@ -15,3 +15,9 @@
 
 ### Desktop Mockup
 <img src="https://i.imgur.com/5YnX8wX.png"/>
+
+## Preview and Demo Site
+
+<img src="https://i.imgur.com/aKqXnozl.png"/>
+
+<p><strong>Netlify: </strong><a href="https://riverxdiamant-portfolio-v2.netlify.app/">Demo</a></p>
