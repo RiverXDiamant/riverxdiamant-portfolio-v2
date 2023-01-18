@@ -13,10 +13,10 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
-  --primary-color: #e02c2cb9;
+  --primary-color: #38abe0b9;
   --secondary-color: #000000;
-  --primary-shadow: #6e01018c;
-  --secondary-shadow: #000000;
+  --primary-shadow: #01616e8c;
+  --secondary-shadow: #2f8eb9b9;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -27,7 +27,7 @@
 /* Dark Mode Variables */
 /* [data-theme="dark"]? This means we are referencing a data attribute called data-theme with a value "dark"*/
 [data-theme="dark"] {
-  --primary-color: #b82828;
+  --primary-color: #38abe0b9;
   --secondary-color: #000000;
   --primary-shadow: #6e01018c;
   --secondary-shadow: #000000;
@@ -188,8 +188,8 @@ nav ul li {
 }
 
 .icon {
-  width: 10rem;
-  height: 10rem;
+  width: 8rem;
+  height: 8rem;
 }
 /* Skills section ends */
 
