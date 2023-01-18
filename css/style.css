@@ -185,6 +185,8 @@ nav ul li {
   font-size: medium;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 75px;
+  height: 20px;
   border-radius: 4px;
   border: none;
 }
