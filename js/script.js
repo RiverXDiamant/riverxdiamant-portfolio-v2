@@ -1,17 +1,17 @@
 // Dark/Light Mode
-const toggleSwitch = document.querySelector(
-  '.theme-switch input[type="checkbox"]'
-);
+// const toggleSwitch = document.querySelector(
+//   '.theme-switch input[type="checkbox"]'
+// );
 
-function switchTheme(event) {
-  if (event.target.checked) {
-    document.documentElement.setAttribute("data-theme", "dark");
-  } else {
-    document.documentElement.setAttribute("data-theme", "light");
-  }
-}
+// function switchTheme(event) {
+//   if (event.target.checked) {
+//     document.documentElement.setAttribute("data-theme", "dark");
+//   } else {
+//     document.documentElement.setAttribute("data-theme", "light");
+//   }
+// }
 
-toggleSwitch.addEventListener("change", switchTheme, false);
+// toggleSwitch.addEventListener("change", switchTheme, false);
 
 // Nav burger selections
 const burger = document.querySelector("#burger-menu");
@@ -37,6 +37,7 @@ navLink.forEach((link) =>
 );
 
 // scroll to top functionality
+// Window.scrollTo() scrolls to a particular set of coordinates (x,y)in the document
 scrollUp.addEventListener("click", () => {
   window.scrollTo({
     top: 0,
