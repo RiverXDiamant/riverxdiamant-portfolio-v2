@@ -5,7 +5,7 @@
 ### `CSS`
 ### `JavaScript`
 ### `Font Awesome`
-### `Ionic`
+### `Ionic Icons`
 
 ## Wireframes
 
