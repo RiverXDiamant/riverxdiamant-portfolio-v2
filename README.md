@@ -4,6 +4,8 @@
 ### `HTML`
 ### `CSS`
 ### `JavaScript`
+### `Font Awesome`
+### `Ionic`
 
 ## Wireframes
 
@@ -11,10 +13,10 @@
 <a href="https://www.mockflow.com/">MockFlow</a>
 
 ### Mobile Mockup
-<img src="https://i.imgur.com/mzNBo7w.png"/>
+<img src="https://i.imgur.com/clCRKm7l.png"/>
 
 ### Desktop Mockup
-<img src="https://i.imgur.com/5YnX8wX.png"/>
+<img src="https://i.imgur.com/FIY4jP1l.png"/>
 
 ## Preview and Demo Site
 
