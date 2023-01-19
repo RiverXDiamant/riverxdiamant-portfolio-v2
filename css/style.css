@@ -282,7 +282,7 @@ nav ul li {
 /* Scroll to top button */
 .scroll-up {
   position: fixed;
-  right: 0.5%;
+  right: 1%;
   bottom: 3%;
   cursor: pointer;
 }
