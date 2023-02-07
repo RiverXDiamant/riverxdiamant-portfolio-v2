@@ -7,6 +7,12 @@
 ### `Font Awesome`
 ### `Ionic Icons`
 
+## Preview and Demo Site
+
+<img src="https://i.imgur.com/aKqXnozl.png"/>
+
+<p><strong>Netlify: </strong><a href="https://riverxdiamant-portfolio-v2.netlify.app/">Demo</a></p>
+
 ## Wireframes
 
 ### Wireframe Tool
@@ -18,8 +24,4 @@
 ### Desktop Mockup
 <img src="https://i.imgur.com/FIY4jP1l.png"/>
 
-## Preview and Demo Site
 
-<img src="https://i.imgur.com/aKqXnozl.png"/>
-
-<p><strong>Netlify: </strong><a href="https://riverxdiamant-portfolio-v2.netlify.app/">Demo</a></p>
